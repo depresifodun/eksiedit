@@ -1,0 +1,22 @@
+{
+
+  "description": "Ekşideki kanal başlıklarını değiştirtme şeysi",
+  "manifest_version": 2,
+  "name": "EksiEdit",
+  "version": "1.0",
+  "homepage_url": "https://github.com/testingen",
+  "icons": {
+    "48": "icon/i48.png",
+    "32": "icon/i32.png",
+    "64": "icon/i48.png"
+    
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["*://eksisozluk.com/*"],
+      "js": ["background.js"]
+    }
+  ]
+
+}
