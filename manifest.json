@@ -4,7 +4,7 @@
   "manifest_version": 2,
   "name": "EksiEdit",
   "version": "1.0",
-  "homepage_url": "https://github.com/testingen",
+  "homepage_url": "https://github.com/depresifodun/eksiedit",
   "icons": {
     "48": "icon/i48.png",
     "32": "icon/i32.png",
