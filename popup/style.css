@@ -1,0 +1,32 @@
+body {
+  background-color: #06acde;
+  margin: 0;
+  height: 60%;
+  font-size: 75%;
+  width: %20;
+}
+
+.container {
+  padding: 5px;
+  margin-top: 1px;
+  float:left;
+}
+
+
+.draggable {
+
+  background-color: #e45b1e;
+  border: 1px solid black;
+  cursor: move;
+}
+
+.bok {
+
+  background-color: #e45b1e;
+  border: 1px solid black;
+  cursor: move;
+}
+
+.draggable.dragging {
+  opacity: .5;
+}
